@@ -1,9 +1,14 @@
-# Global Data Salary Insights
+# 🌍 Global Data Salary Insights
 
 ## 📌 Overview
 This project analyzes global salary trends, hiring demand, and remote work impact for data roles using Python, SQL (BigQuery), and Power BI.
 
-The goal is to understand how geography, experience level, and remote work influence compensation in the global data job market.
+The objective is to understand how geography, experience level, and remote work influence compensation in the global data job market.
+
+---
+
+## 🎯 Motivation
+As a data analyst aspiring to work internationally, I built this project to explore global salary benchmarks, hiring hotspots, and the impact of remote work on compensation.
 
 ---
 
@@ -12,6 +17,18 @@ The goal is to understand how geography, experience level, and remote work influ
 - SQL (BigQuery)
 - Power BI
 - Google Cloud Platform
+
+---
+
+## 📂 Dataset
+Source: Data Science Job Salaries dataset (Kaggle)
+
+The dataset contains information on:
+- Job titles
+- Salary in USD
+- Company location
+- Experience level
+- Remote work ratio
 
 ---
 
@@ -24,32 +41,29 @@ The goal is to understand how geography, experience level, and remote work influ
 
 ---
 
-## 📈 Visual Insights
+## 📈 Dashboard Preview
 
 ### Salary by Country
-![Salary by Country](dashboard/salary_by_country.png)
+![Salary by Country](dashboard/screenshots/salary_by_country.png)
 
-### Salary by Experience Level
-![Salary by Experience](dashboard/salary_by_experience.png)
+### Experience Impact
+![Experience Impact](dashboard/screenshots/experience_impact.png)
 
 ### Remote Work Impact
-![Remote Work](dashboard/remote_work_impact.png)
+![Remote Work](dashboard/screenshots/remote_work.png)
 
 ### Hiring Hotspots
-![Hiring Hotspots](dashboard/hiring_hotspots.png)
+![Hiring Hotspots](dashboard/screenshots/hiring_hotspots.png)
 
 ---
 
-## ⚙️ Project Workflow
-1. Cleaned dataset using Python.
-2. Loaded data into BigQuery for SQL analysis.
-3. Used SQL (CTEs & window functions) to analyze salary trends.
-4. Performed exploratory analysis using Python.
-5. Built a Power BI dashboard for visualization.
+## 🧩 Project Workflow
+Raw Data → Python Cleaning → BigQuery SQL Analysis → Python EDA → Power BI Dashboard
 
 ---
 
 ## ▶️ How to Run
 
+1. Run the data cleaning script:
 ```bash
 python scripts/data_cleaning.py
