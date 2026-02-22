@@ -3,7 +3,12 @@
 ## 📌 Overview
 This project analyzes global salary trends, hiring demand, and remote work impact for data roles using Python, SQL (BigQuery), and Power BI.
 
-The goal is to understand how geography, experience level, and remote work influence compensation in the global data job market.
+The objective is to understand how geography, experience level, and remote work influence compensation in the global data job market.
+
+---
+
+## 🎯 Motivation
+As a data analyst aspiring to work internationally, I built this project to explore global salary benchmarks, hiring hotspots, and the impact of remote work on compensation.
 
 ---
 
@@ -23,12 +28,21 @@ As a data analyst aspiring to work internationally, I built this project to expl
 ## 📂 Dataset
 Source: Data Science Job Salaries dataset (Kaggle)
 
+<<<<<<< HEAD
 The dataset includes:
 - Job titles  
 - Salary in USD  
 - Company location  
 - Experience level  
 - Remote work ratio  
+=======
+The dataset contains information on:
+- Job titles
+- Salary in USD
+- Company location
+- Experience level
+- Remote work ratio
+>>>>>>> cf38b4eaeb5e817e4188a4c0ba22fed896252e88
 
 ---
 
@@ -41,24 +55,29 @@ The dataset includes:
 
 ---
 
+<<<<<<< HEAD
 ## 📊 Python Analysis Visuals
 
 These visuals were generated using Python to explore salary trends and hiring patterns.
+=======
+## 📈 Dashboard Preview
+>>>>>>> cf38b4eaeb5e817e4188a4c0ba22fed896252e88
 
 ### Salary by Country
-![Salary by Country](dashboard/salary_by_country.png)
+![Salary by Country](dashboard/screenshots/salary_by_country.png)
 
-### Salary by Experience Level
-![Salary by Experience](dashboard/salary_by_experience.png)
+### Experience Impact
+![Experience Impact](dashboard/screenshots/experience_impact.png)
 
 ### Remote Work Impact
-![Remote Work](dashboard/remote_work_impact.png)
+![Remote Work](dashboard/screenshots/remote_work.png)
 
 ### Hiring Hotspots
-![Hiring Hotspots](dashboard/hiring_hotspots.png)
+![Hiring Hotspots](dashboard/screenshots/hiring_hotspots.png)
 
 ---
 
+<<<<<<< HEAD
 ## 📊 Power BI Dashboard
 
 The Power BI dashboard provides an interactive view of global salary trends and hiring demand.
@@ -70,6 +89,8 @@ The Power BI dashboard provides an interactive view of global salary trends and 
 
 ---
 
+=======
+>>>>>>> cf38b4eaeb5e817e4188a4c0ba22fed896252e88
 ## 🧩 Project Workflow
 Raw Data → Python Cleaning → BigQuery SQL Analysis → Python EDA → Power BI Dashboard
 
@@ -77,6 +98,10 @@ Raw Data → Python Cleaning → BigQuery SQL Analysis → Python EDA → Power 
 
 ## ▶️ How to Run
 
+<<<<<<< HEAD
 1️⃣ Run data cleaning script:
+=======
+1. Run the data cleaning script:
+>>>>>>> cf38b4eaeb5e817e4188a4c0ba22fed896252e88
 ```bash
 python scripts/data_cleaning.py
