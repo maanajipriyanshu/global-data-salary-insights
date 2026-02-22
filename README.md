@@ -67,10 +67,10 @@ These visuals were generated using Python to explore salary trends and hiring pa
 
 The Power BI dashboard provides an interactive view of global salary trends and hiring demand.
 
-![Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
-![Experience Impact](dashboard/screenshots/experience_impact.png)
-![Remote Analysis](dashboard/screenshots/remote_analysis.png)
-![Hiring Hotspots](dashboard/screenshots/hiring_hotspots_dashboard.png)
+![Dashboard Overview](dashboard/Screenshots/dashboard_overview.png)
+![Experience Impact](dashboard/Screenshots/Experience_impact.png)
+![Remote Analysis](dashboard/Screenshots/remote_analysis.png)
+![Hiring Hotspots](dashboard/Screenshots/hiring_hotspots_dashboard.png)
 
 ---
 
