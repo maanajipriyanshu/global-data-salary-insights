@@ -41,6 +41,10 @@ The dataset includes:
 
 ---
 
+SQL queries used in this project are available in `sql/salary_analysis_queries.sql`. 
+
+--- 
+
 ## 📊 Python Analysis Visuals
 
 These visuals were generated using Python to explore salary trends and hiring patterns.
